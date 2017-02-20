@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #A0FFCC;
+	text-align: center;
+	color: #22222;
+	line-height: 1.3; 
+}
+
+
+.topright {
+	text-align: right;
+}
+
+header {
+	padding: 20px;
+	background-image: url("../images/ivyherosketch.jpg");
+}
+
+h1{
+	font-weight: bold;
+	font-size: 45px;
+}
+
+h2 {
+	font-style: italic;
+	font-size: 20px;
+	padding: 10px;
+}
+
+
+nav a {
+	margin: 10px;
+}
