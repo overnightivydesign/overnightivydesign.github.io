@@ -19,7 +19,7 @@ body {
 
 div{
 	text-align: right;
-}
+} /*Why didn't this work when I used the class? */
 
 header {
 	padding: 20px;
@@ -47,9 +47,6 @@ nav a {
 	margin: 10px;
 	}
 
-/*.oicreator{
-	float: left;
-	}*/
 
 p {
 	line-height: 1.3em;
@@ -61,3 +58,7 @@ li{
 	list-style-type: square;
 	width: auto;
 	}
+
+	/*.oicreator{
+	float: left;
+	}*/
