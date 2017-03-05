@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento:700|Raleway');
+/*font-family: 'Quattrocento', serif;
+font-family: 'Raleway', sans-serif;*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 16px; 
+	background-color: #B3FFEF;
+	text-align: center;
+	line-height: 1.3em;
+	color: #22222;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+div{
+	text-align: right;
+} /*Why didn't this work when I used the class? */
+
+header {
+	padding: 20px;
+	margin: -8px;
+	background-image: url("../images/ivyvine.jpg");
+	/*opacity: linear-gradient;*/
+	/*background-image: no repeat scroll;*/
+}
+
+/*main {
+	float: right;
+}*/
+
+h1{
+	font-weight: bold;
+	font-size: 3em;
+	font-family: 'Quattrocento', serif;
+	}
+
+h2 {
+	/*font-style: italic;*/
+	font-size: 1.5em;
+	padding: .7em;
+	font-family: 'Quattrocento', serif;
+	}
+
+nav a {
+	margin: 10px;
+	/*background: #eee;*/
+	}
+
+aside{
+	/*float: left;*/
+	text-align: left;
+	width: 316px;
+}
+/*What am I missing here? Should the also have the class descriptor?*/
+
+h3{
+	font-size: 1.5em;
+	padding: .7em;
+}
+
+p {
+	line-height: 1.3em;
+	padding: .9em .2em;
+	width: 60;
+	}
+
+ul{
+	padding-bottom: 1.2em;
+}
+
+li{
+	list-style-type: square;
+	width: auto;
+	}
+
+	/*.oicreator{
+	float: left;
+	}*/
+
+footer{
+	padding: 1.2em;
+	background: #eee;
+	clear: both;
+}
+
+/*#wrapper{
+	width: 1080px;
+	margin: 0 auto;*/
+}
