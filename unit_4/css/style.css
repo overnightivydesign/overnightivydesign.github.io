@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quattrocento:700|Raleway');
-font-family: 'Quattrocento', serif;
-font-family: 'Raleway', sans-serif;
+/*font-family: 'Quattrocento', serif;
+font-family: 'Raleway', sans-serif;*/
 
 * {
 	padding: 0;
@@ -8,14 +8,13 @@ font-family: 'Raleway', sans-serif;
 }
 
 body {
-	font-family: Arial, sans-serif;
 	font-size: 16px; 
 	background-color: #B3FFEF;
 	text-align: center;
+	line-height: 1.3em;
 	color: #22222;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', Arial, sans-serif;
 }
-
 
 div{
 	text-align: right;
@@ -29,11 +28,14 @@ header {
 	/*background-image: no repeat scroll;*/
 }
 
+/*main {
+	float: right;
+}*/
+
 h1{
 	font-weight: bold;
 	font-size: 3em;
 	font-family: 'Quattrocento', serif;
-
 	}
 
 h2 {
@@ -45,14 +47,30 @@ h2 {
 
 nav a {
 	margin: 10px;
+	/*background: #eee;*/
 	}
 
+aside{
+	/*float: left;*/
+	text-align: left;
+	width: 316px;
+}
+/*What am I missing here? Should the also have the class descriptor?*/
+
+h3{
+	font-size: 1.5em;
+	padding: .7em;
+}
 
 p {
 	line-height: 1.3em;
-	padding-bottom: .3em;
+	padding: .9em .2em;
 	width: 60;
 	}
+
+ul{
+	padding-bottom: 1.2em;
+}
 
 li{
 	list-style-type: square;
@@ -62,3 +80,14 @@ li{
 	/*.oicreator{
 	float: left;
 	}*/
+
+footer{
+	padding: 1.2em;
+	background: #eee;
+	clear: both;
+}
+
+/*#wrapper{
+	width: 1080px;
+	margin: 0 auto;*/
+}
