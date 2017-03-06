@@ -12,50 +12,74 @@ body {
 	background-color: #B3FFEF;
 	text-align: center;
 	line-height: 1.3em;
-	color: #22222;
+	color: #222222;
 	font-family: 'Raleway', Arial, sans-serif;
 }
 
-div{
+.topright{
 	text-align: right;
-} /*Why didn't this work when I used the class? */
-
-header {
-	padding: 20px;
-	margin: -8px;
-	background-image: url("../images/ivyvine.jpg");
-	/*opacity: linear-gradient;*/
-	/*background-image: no repeat scroll;*/
+	color: pink; 
+	text-decoration: none;
 }
 
-/*main {
-	float: right;
-}*/
+#right-align{
+	text-align: right;
+}
+
+.navbar{
+	padding: 2px 0;
+	/*background: #eee;*/
+}
+
+header {
+	padding: 30px;
+	background-color: white;
+	border: 1px black solid;
+	background-image: url("../images/ivyvine.jpg");
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+
 
 h1{
 	font-weight: bold;
 	font-size: 3em;
 	font-family: 'Quattrocento', serif;
-	}
+}
 
 h2 {
-	/*font-style: italic;*/
 	font-size: 1.5em;
 	padding: .7em;
 	font-family: 'Quattrocento', serif;
-	}
+}
 
-nav a {
-	margin: 10px;
-	/*background: #eee;*/
-	}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav a{
+	padding: 30px;
+	color: pink;
+	text-decoration: none;
+}
 
 aside{
-	/*float: left;*/
-	text-align: left;
-	width: 316px;
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 220px;
 }
-/*What am I missing here? Should the also have the class descriptor?*/
+
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 
 h3{
 	font-size: 1.5em;
@@ -65,8 +89,7 @@ h3{
 p {
 	line-height: 1.3em;
 	padding: .9em .2em;
-	width: 60;
-	}
+}
 
 ul{
 	padding-bottom: 1.2em;
@@ -75,19 +98,20 @@ ul{
 li{
 	list-style-type: square;
 	width: auto;
-	}
-
-	/*.oicreator{
-	float: left;
-	}*/
+}
 
 footer{
-	padding: 1.2em;
-	background: #eee;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 	clear: both;
 }
 
-/*#wrapper{
+.oicreator img {
+	width:220px;
+}
+
+#wrapper{
 	width: 1080px;
-	margin: 0 auto;*/
+	margin: 0 auto;
 }

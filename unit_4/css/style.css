@@ -12,8 +12,13 @@ body {
 	background-color: #B3FFEF;
 	text-align: center;
 	line-height: 1.3em;
-	color: #22222;
+	color: #222222;
 	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.topright{
+	text-align: right;
+	color: pink; 
 }
 
 div{
@@ -36,14 +41,14 @@ h1{
 	font-weight: bold;
 	font-size: 3em;
 	font-family: 'Quattrocento', serif;
-	}
+}
 
 h2 {
 	/*font-style: italic;*/
 	font-size: 1.5em;
 	padding: .7em;
 	font-family: 'Quattrocento', serif;
-	}
+}
 
 nav a {
 	margin: 10px;
@@ -75,7 +80,7 @@ ul{
 li{
 	list-style-type: square;
 	width: auto;
-	}
+}
 
 	/*.oicreator{
 	float: left;
@@ -89,5 +94,5 @@ footer{
 
 /*#wrapper{
 	width: 1080px;
-	margin: 0 auto;*/
-}
+	margin: 0 auto;
+}*/
