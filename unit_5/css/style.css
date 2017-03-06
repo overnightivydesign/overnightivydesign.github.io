@@ -17,13 +17,15 @@ body {
 }
 
 .topright{
+	text-decoration: none;
 	text-align: right;
 	color: pink; 
-	text-decoration: none;
 }
 
 #right-align{
 	text-align: right;
+	color: pink; 
+	text-decoration: none;
 }
 
 .navbar{
@@ -58,6 +60,8 @@ nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
 	padding: 20px;
+	color: pink;
+	text-decoration: none;
 }
 
 nav a{
