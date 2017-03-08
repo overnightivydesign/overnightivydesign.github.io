@@ -7,31 +7,15 @@ font-family: 'Raleway', sans-serif;*/
 	margin: 0;
 }
 
+
 body {
 	font-size: 16px; 
-	background-color: #B3FFEF;
-	text-align: center;
+	text-align: left;
 	line-height: 1.3em;
 	color: #222222;
 	font-family: 'Raleway', Arial, sans-serif;
 }
 
-.topright {
-	text-decoration: none;
-	text-align: right;
-	color: pink; 
-}
-
-#right-align {
-	text-align: right;
-	color: pink; 
-	text-decoration: none;
-}
-
-#navbar {
-	padding: 2px 0;
-	/*background: #eee;*/
-}
 
 header {
 	padding: 30px;
@@ -50,114 +34,169 @@ h1 {
 	font-family: 'Quattrocento', serif;
 }
 
+
 h2 {
 	font-size: 1.5em;
 	padding: .7em;
 	font-family: 'Quattrocento', serif;
 }
 
+
 nav {
-	background-color: #E8C66A;
+	background-color: #E3FFEF;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 10px;
 	color: pink;
 	text-decoration: none;
+	text-align: center;
 }
+
 
 nav a{
 	padding: 30px;
 	color: pink;
-	text-decoration: none;
+	text-decoration: none; 
+	font-weight: bold;
 }
 
-.topright:hover{
-	color: #FF0DFF;
-}
 
 nav a:hover{
 	color: #FF0DFF;
 }
 
-aside {
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-	/*float: left;*/
-	width: 240px;
-}
 
 h3 {
 	font-size: 1.5em;
 	padding: .7em;
 }
 
+aside {
+	padding-right: none;
+}
+
+
 main {
-	width: 700px;
-	background-color: #FFE2B8;
 	border: 1px black solid;
-	padding: 40px;
-	margin: auto;
+}
+
+main h3 {
+	font-size: 1.5em;
+	padding: .7em;
+	text-align: center;
 }
 
 
 article {
 	display: block;
-	/*float: left;*/
+	float: left;
+/*	how do I make the two articles within the main section move float to the same line?*/
 }
+
 
 p {
 	line-height: 1.3em;
 	padding: .9em .2em;
 }
 
+
 ul{
 	padding-bottom: 1.2em;
-	padding-left: 170px;
-	width: auto;
+	padding-left: 25px;
+	/*width: auto;*/
 	list-style-type: square;
 }
+
 
 li{
 	text-align: left;
 }
 
+
 footer {
-	background-color: #FF957E;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 2px;
 	clear: both;
 }
+
 
 footer p {
 	display: block;
 	float: right;
 	text-align: center;
-	/*how do I shrink the size footer space?*/
 }
 
-#two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding-bottom: 20px;
-}
-#right {
 
+.topright:hover{
+	color: #FF0DFF;
 }
 
-#right img {
-	width:220px;
+
+.topright {
+	text-decoration: none;
+	text-align: right;
+	color: pink; 
 }
 
-#wrapper {
-	width: 1080px;
-	margin: 0 auto;
-}
 
 .clearfix:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
-	content: "";
+	content: " ";
 	clear: both;
 	height: 0;
+}
+
+
+#right-align {
+	text-align: right;
+	color: pink; 
+	text-decoration: none;
+}
+
+
+#navbar {
+	padding: 2px 0;
+	/*background: #eee;*/
+}
+
+
+#two_column {
+	border: 1px black solid;
+	padding-bottom: 20px;
+	margin: 0;
+}
+
+
+#left {
+	/*background-color: violet;*/
+	text-align: center;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 25%;
+}
+
+
+#right {
+	/*background-color: pink;*/
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 67%;
+	/*margin: 0 auto;*/
+}
+
+
+#left img {
+	width: 200px;
+}
+
+
+#wrapper {
+	width: 1080px;
+	margin: 0 auto;
+	background-color: #B3FFEF;
+}
+
 
