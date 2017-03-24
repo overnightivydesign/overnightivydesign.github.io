@@ -114,7 +114,7 @@ li{
 
 footer {
 	border: 1px black solid;
-	padding: 2px;
+	padding: 2px 20px;
 	clear: both;
 }
 
@@ -123,6 +123,7 @@ footer p {
 	display: block;
 	float: right;
 	text-align: center;
+	padding: 5px 25px;
 }
 
 
