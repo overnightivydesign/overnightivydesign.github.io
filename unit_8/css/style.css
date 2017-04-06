@@ -179,13 +179,19 @@ footer p {
 #right {
 	padding: 1em;
 	float: right;
-	width: 65%;
+	width: 68%;
 }
 
 #wrapper {
 	width: 80%;
 	margin: 0 auto;
 }
+
+@media only screen and (max-width: 1150px) {
+/*#left {
+		display: none;
+	}*/
+
 
 @media only screen and (max-width: 1080px) {
 	nav a {
